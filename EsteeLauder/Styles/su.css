@@ -1,0 +1,195 @@
+.step1 {
+            background: #fff;
+        }
+
+        .step1 img {
+            position: absolute;
+                        
+        }
+        .swiper-container img {
+            width: 650px;
+            height: auto;
+            left: 50px !important;
+        }
+
+        .window1 {
+            top: 294px;
+            left: 422px;
+            z-index: 2;
+        }
+
+        .window2 {
+            top: 278px;
+            left: 232px;
+            z-index: 2;
+        }
+
+        .window3 {
+            top: 525px;
+            left: 424px;
+            z-index: 2;
+        }
+
+        .window4 {
+            top: 515px;
+            left: 241px;
+            z-index: 2;
+        }
+
+        .magic {
+            padding-top: 20px;
+            text-align: center;
+        }
+        .git1 img{
+            -webkit-animation-delay: 1s;
+        }
+        .git2 img{
+            -webkit-animation-delay: 0.5s;
+        }
+        .git3 img{
+            -webkit-animation-delay: 0.8s;
+        }
+        .git4 img{
+            -webkit-animation-delay: 1.4s;
+        }
+
+        .git1 {
+            top: 321px;
+            left: 196px;
+            animation-delay: 1s;
+            z-index: 1;
+            height: 74px;
+            width: 100px;
+            position: absolute;
+            text-align: center;
+
+        }
+        .git2 {
+                top: 326px;
+    left: 402px;
+            height: 122px;
+            width: 100px;
+            animation-delay: 2s;
+            -webkit-animation-delay: 2s;
+            z-index: 1;
+            position: absolute;
+        }
+
+        .git3 {
+            top: 550px;
+            left: 195px;
+            height: 74px;
+            width: 100px;
+
+            animation-delay: 3s;
+            -webkit-animation-delay: 2s;
+            z-index: 1;
+            position: absolute;
+            padding-right: 28px;
+
+        }
+
+        .git4 {
+            top: 554px;
+            left: 402px;
+            height: 109px;
+            width: 100px;
+
+            animation-delay: 2.5s;
+            -webkit-animation-delay: 2.5s;
+            z-index: 1;
+            position: absolute;
+        }
+
+        .step2,
+        .step3,
+        .step4,
+        .step5,
+        .step6 {
+            background: url(images/bg2.jpg) no-repeat center top;
+        }
+
+        .content {
+            background-color: #ccc;
+        }
+
+        .sp2 {
+            background: url(images/1/6.png) no-repeat center top;
+            top: 68%;
+            left: 21%;
+            width: 8%;
+            height: 5%;
+            z-index: 5;
+        }
+
+        .bg {
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            z-index: 11;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        /*按钮样式*/
+        .btn{
+            width: 373px;
+            height: 82px;
+            display: inline-block;
+            position: absolute;
+            bottom: 120px;
+            left: 182px;
+        }
+        /*swiper插件样式*/
+        .swiper-container {
+            width: 100%;
+            height: 90%;
+        }
+
+        .swiper-container img {
+            top: 150px;
+            left: 0;
+        }
+
+        .swiper-container .xx {
+            width: 77px;
+            height: auto;
+            position: absolute;
+            top: 200px;
+            margin-left: auto;
+            right: 42px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        /*小圆点样式*/
+        .swiper-pagination-bullet {
+            width: 20px;
+            height: 20px;
+            border: 5px solid #FFF;
+            background: transparent;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background: #cfb980;
+        }
+
+        .swiper-container {
+            z-index: 9999;
+        }

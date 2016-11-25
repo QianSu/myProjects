@@ -1,0 +1,212 @@
+﻿<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>EsteeLauder Holiday</title>
+        <meta http-equiv="Content-Type" charset="UTF-8">
+        <meta name="viewport" content="width=750,target-densitydpi=device-dpi,user-scalable=no" />
+        <link rel="stylesheet" href="Styles/animate.css" type="text/css" />
+        <link rel="stylesheet" href="Styles/css3.css" type="text/css" />
+        <link rel="stylesheet" href="Styles/index.css" type="text/css" />
+        <link rel="stylesheet" href="Styles/csshake-slow.css" />
+        <link rel="stylesheet" href="Styles/swiper.min.css" />
+        <link rel="stylesheet" href="Styles/annan.css" />
+        <link rel="stylesheet" href="Styles/su.css" />
+        <style type="text/css">
+        .swiper-wrapper{ z-index:9999;}
+        .step2 img{position:absolute}
+        .step1,#loading-black{ background:url(images/lubg.jpg) no-repeat}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 130px;
+    left: 0;
+    width: 100%;}
+        </style>
+    </head>
+    <body>
+
+        <div style="position:absolute;top:0;left:0; z-index:66">
+                <!--<div id="horizontal" align="center" style="display: none;">
+            <img src="./src/top10/orient.png" width="488" />
+        </div> -->
+            <!--Ԥ����-->
+            <div id="loading-black">
+                <div class="load">
+                    <img src="images/git.png" width="100" class="animate-load" />
+                    <p class="load-tips"></p>
+                </div>
+            </div>
+            <!--Ԥ����-->
+            <!--snow-->
+            <canvas id="canvas" width="750" height="1344"></canvas>
+
+            <div id="main">
+                <div id="content">
+                    <img src="images/music.png" class="music-ico" />
+                    <div class="box-step step1 pagebox1">
+                            <!--lu����-->
+                                <div class="anim">
+                                    <img src="images/lu.gif" id="luright" class="lul" />
+                                    <img src="images/lu.gif" id="Img1" class="lur" />
+                                    <img src="images/git.png" class="git" alt="Alternate Text" />
+                                </div>
+                            <!--lu����-->
+                    </div>
+                <div class="box-step step2 pagebox2">
+                    <div id="ni1" class="snow"></div>
+                    <div id="ni2" class="snow"></div>
+                    <div id="ni3" class="snow"></div>
+                    <div id="ni4" class="snow"></div>
+                    <div id="ni5" class="snow"></div>
+                    <div id="ni6" class="snow"></div>
+                    <div id="ni7" class="snow"></div>
+                    <div id="ni8" class="snow"></div>
+                    <div id="ni9" class="snow"></div>
+                    <div id="ni10" class="snow"></div>
+                    <div id="ni11" class="snow"></div>
+                    <div id="ni12" class="snow"></div>
+                    <div id="ni13" class="snow"></div>
+                    <div id="ni14" class="snow"></div>
+                    <div id="ni15" class="snow"></div>
+                    <div id="ni16" class="snow"></div>
+                    <div id="ni17" class="snow"></div>
+                    <div id="ni18" class="snow"></div>
+                    <div id="ni19" class="snow"></div>
+                    <div id="ni20" class="snow"></div>
+   <!--<div id="ni21" class="snow"></div>
+                    <div id="ni22" class="snow"></div>
+                    <div id="ni23" class="snow"></div>
+                    <div id="ni24" class="snow"></div>
+                    <div id="ni25" class="snow"></div>-->
+                    <img src="images/home.png" style="margin-left: 130px; z-index: 3;" />
+                    <img src="images/win1.jpg" class="window1 " />
+                    <img src="images/win1.jpg" class="window2" />
+                    <img src="images/win2.jpg" class="window3" />
+                    <img src="images/win2.jpg" class="window4" />
+                    <div class="git1 magic"><img src="images/icon2.png" /></div>
+                    <div class="git2 magic"><img src="images/icon1.png" /></div>
+                    <div class="git3 magic"><img src="images/icon4.png" /></div>
+                    <div class="git4 magic"><img src="images/icon3.png" /></div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--����-->
+        <div id="shade" style="height: 100%;width: 100%; display: none; position:fixed; top:0px; z-index: 9999">
+            <div class="bg">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/icon1_1.gif" /><img src="images/x.png" class="xx" />
+                            </div>
+                            <div class="swiper-slide"><img src="images/icon2_1.gif" /><img src="images/x.png" class="xx" />
+                            </div>
+                            <div class="swiper-slide"><img src="images/icon4_1.gif" /><img src="images/x.png" class="xx" />
+                            </div>
+                            <div class="swiper-slide"><img src="images/icon3_1.gif" /><img src="images/x.png" class="xx" />
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+        <!--//citylist������-->
+        <div class="citylist">
+            <img src="images/city.png" id="city" class="city" />
+            <img src="images/closeCity.png" id="closeCity" class="closeCity" />           
+        </div>
+        <!--//citylist������-->
+
+        <!--��ͼ��-->
+        <div class="noSwipe" style="height: 1880px;width: 100%; position: relative;top: 100%; z-index:33;">
+            <img src="images/lala.png" style="" class="upImg yaobai" />
+            <img src="images/bigbg.jpg" class="longImg" />
+            <a href="javascript:;" class="btn"style="bottom: 200px;" id="check"><img src="images/btn1.png" /></a>
+            <a href="javascript:;" class="btn"  id="yuyue" ><img src="images/btn2.png" /></a>
+        </div>
+        <!--��ͼ��-->
+        <audio id="audio" preload="autso" autoplay="false" loop src="./music/music.mp3"></audio>
+        <script src="Scripts/jquery-1.11.1.min.js"></script>
+        <script src="Scripts/index.js"></script>
+        <script src="Scripts/PxLoader.js"></script>
+        <script src="Scripts/ort.js"></script>
+        <script src="Scripts/swiper.jquery.min.js"></script>
+        <script src="Scripts/jquery.touchSwipe.min.js"></script>
+         <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+         <script src="Scripts/annansnow.js?v3"></script>
+         <%--΢�ŷ���--%>
+         <script>
+             var pageurl = encodeURIComponent(document.URL);
+             //console.log(pageurl);
+             var jsPath = "http://wxapi.egocomm.cn/lkkwx/Js/WeiXinJSAPI.aspx?url=" + pageurl + "&jsapilist='onMenuShareTimeline','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone'&t=" + new Date().getTime();
+             document.write("<scri" + "pt src=\"" + jsPath + "\"></sc" + "ript>");
+             wx.ready(function () {
+                 wx.onMenuShareTimeline({
+                     title: 'EsteeLander Holiday', // �������
+                     link: "http://wxapi.egocomm.cn/EsteeLauder/index.html", // ��������
+                     desc: '圣诞礼物季|雅诗兰黛“倾心遇见礼”，点击即刻开启你的圣诞专属礼遇！',
+                     imgUrl: 'http://wxapi.egocomm.cn/EsteeLauder/images/shae.jpg', // ����ͼ��
+                     success: function () {
+
+                     },
+                     cancel: function () {
+                         // �û�ȡ�������ִ�еĻص�����
+                     }
+                 });
+
+                 wx.onMenuShareAppMessage({
+                     title: 'EsteeLander Holiday', // �������
+                     link: "http://wxapi.egocomm.cn/EsteeLauder/index.html", // ��������
+                     desc: '圣诞礼物季|雅诗兰黛“倾心遇见礼”，点击即刻开启你的圣诞专属礼遇！',
+                     imgUrl: 'http://wxapi.egocomm.cn/EsteeLauder/images/shae.jpg', // ����ͼ��
+                     success: function () {
+
+                     },
+                     cancel: function () {
+                         // �û�ȡ�������ִ�еĻص�����
+                     }
+                 });
+             });
+
+             wx.error(function (res) {
+                 //alert("wx error");
+                 //alert("wx.error" + res.errMsg);
+             });
+         </script>
+         <%--΢�ŷ���--%>
+        <script type="text/javascript">
+            $(".git").on("touchend", function () {
+                $('.box-step:first').fadeOut(200).siblings().fadeIn(200);
+                $(".noSwipe").css("z-index", 66);
+                $(".window1").animate({
+                    "top": 135
+                }, 1200);
+                $(".window2").animate({
+                    "top": 135
+                }, 600);
+                $(".window3").animate({
+                    "top": 460,
+                    "width": 100 + "px",
+                    "height": 82 + "px"
+                }, 600);
+                $(".window4").animate({
+                    "top": 460,
+                    "width": 100 + "px",
+                    "height": 82 + "px"
+                }, 900, function () {
+                    $(".magic").css("zIndex", 9);
+                });
+            })
+
+            $("#yuyue").on("touchend", function () {
+                window.location.href = "form.aspx";
+            })
+            $("#check").on("touchend", function () {
+                $(".citylist").fadeIn(10);
+            })
+            $("#closeCity").on("touchend", function () {
+                $(".citylist").fadeOut(10);
+            })
+        </script>
+    </body>
+
+</html>
